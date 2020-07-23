@@ -21,7 +21,7 @@ end
 
 def full? (board)
 board.any? do |position|
-   position == " "
+   position != " "
 
 end
 end
