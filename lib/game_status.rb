@@ -16,17 +16,10 @@ WIN_COMBINATIONS = [
 
 def won? (board)
   
-  WIN_COMBINATIONS.each do |combo|
-    wind_index_1 = combo[0]
-    wind_index_2 = combo[1]
-    wind_index_3 = combo[2]
-    position_1 = board[win_index_1]
-    position_2 = board[win_index_2]
-    position_3 = board[win_index_3]
-    if position_1 == "X" && position_2 == "X" && position_3 == "X"
-      return win_combination
-    else
-      false
-    end
-  end
+  
+end
+
+def full? (board)
+board.each do |position|
+  if 
 end
