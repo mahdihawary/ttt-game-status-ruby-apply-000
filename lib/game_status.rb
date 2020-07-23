@@ -20,6 +20,7 @@ def won? (board)
 end
 
 def full? (board)
-board.each do |position|
-  if 
+board.any? do |position|
+  position == " "
+  
 end
