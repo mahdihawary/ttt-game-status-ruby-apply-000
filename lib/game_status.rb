@@ -21,8 +21,8 @@ def won? (board)
      win_combo[1]== "X" &&
      win_combo[2] == "X"
      return win_combo
-    else
-     false
+    # else
+    # false
    end
  end
  
