@@ -20,11 +20,8 @@ def won? (board)
 end
 
 def full? (board)
-board.any? do |position|
-    if position.include? " "
-      return false
-    else
-      return true
-    end
-  end
+  if board.include? " "
+    return true
+  else
+    return false
 end
