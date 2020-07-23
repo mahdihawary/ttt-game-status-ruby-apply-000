@@ -21,7 +21,6 @@ def won? (board)
     win_index_2 = combo[1]
     win_index_3 = combo[2]
   if board[win_index_1] == "X" && board[win_index_2] == "X" && board[win_index_3] == "X"
-    
     return combo
   else 
     false
@@ -41,5 +40,5 @@ def full? (board)
 end
 
 def draw?(board)
-
+  if !won? && full?
 end
