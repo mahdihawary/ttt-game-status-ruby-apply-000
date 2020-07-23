@@ -21,4 +21,5 @@ def won? (board)
     wind_index_2 = combo[1]
     wind_index_3 = combo[2]
     
+    
 end
