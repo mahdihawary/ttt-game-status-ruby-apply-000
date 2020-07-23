@@ -23,14 +23,19 @@ def won? (board)
      return win_combo
     else
      false
+   end
+ end
+ 
+ 
+   
     
  
-end
 
-def full? (board)
-   !board.include? " "
+
+# def full? (board)
+#   !board.include? " "
     
-end
+# end
 
 # def draw?(board)
 
