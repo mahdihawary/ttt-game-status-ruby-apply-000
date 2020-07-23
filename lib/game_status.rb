@@ -21,7 +21,7 @@ end
 
 def full? (board)
   if board.include? " "
-    return true
-  else
     return false
+  else
+    return true
 end
