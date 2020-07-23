@@ -16,13 +16,14 @@ WIN_COMBINATIONS = [
 
 def won? (board)
   board.each do |combo|
-    win_combo[] = combo
+   combo.map do |win_combo|
     if win_combo[0] == "X" &&
     win_combo[1]== "X" &&
     win_combo[2] == "X"
     return win_combo
     else
     false
+    end
    end
   end
 end
