@@ -21,7 +21,12 @@ end
 
 def full? (board)
 board.any? do |position|
-   position.include? " "
+    if position.include? " "
+      return false
+    else
+      return true
+    end
+      
 
   end
 end
