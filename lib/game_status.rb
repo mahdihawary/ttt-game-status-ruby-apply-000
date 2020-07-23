@@ -26,7 +26,5 @@ board.any? do |position|
     else
       return true
     end
-      
-
   end
 end
