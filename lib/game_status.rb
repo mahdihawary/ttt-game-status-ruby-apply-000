@@ -15,5 +15,8 @@ WIN_COMBINATIONS = [
 [2,5,8]]
 
 def won? (board)
-  win_index_1 = WIN_COMBINATIONS[]
+  
+  WIN_COMBINATIONS.each do |combo|
+    wind_index_1
+    
 end
