@@ -15,15 +15,17 @@ WIN_COMBINATIONS = [
 [2,5,8]]
 
 def won? (board)
-  board.each do |combo|
-   combo.map do |win_combo|
-    if win_combo[0] == "X" && win_combo[1]== "X" && win_combo[2] == "X"
-      
-      return win_combo
-    else
+  WIN_COMBINATIONS.each do |combo|
+    
+    win_index_1 = combo[0]
+    win_index_2 = combo[1]
+    win_index_3 = combo[2]
+  if board[win_index_1] == "X" && board[win_index_2] == "X" && board[win_index_3] == "X"
+    
+    return combo
+  else 
     false
     end
-   end
   end
 end
  
