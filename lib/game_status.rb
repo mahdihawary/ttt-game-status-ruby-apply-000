@@ -35,11 +35,11 @@ end
  
 
 
-# def full? (board)
-#   !board.include? " "
+def full? (board)
+  !board.include? " "
     
-# end
+end
 
-# def draw?(board)
+def draw?(board)
 
-# end
+end
