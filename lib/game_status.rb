@@ -21,5 +21,6 @@ def won? (board)
     wind_index_2 = combo[1]
     wind_index_3 = combo[2]
     position_1 = board[win_index_1]
+    position_2 = board[win_index_2]
     
 end
