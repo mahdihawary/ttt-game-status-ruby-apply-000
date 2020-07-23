@@ -15,14 +15,11 @@ WIN_COMBINATIONS = [
   [6,4,2]
 ]
 
-def won? (board)
-  
-  WIN_COMBINATIONS.detect do |combo_win|
-    board[combo_win[0]] == board[combo_win[1]] && board[combo_win[1]] == board[combo_win[2]]
-  # if !position_taken?(board, combo_win[0])
-  #   false
-  # end
-    
+def won?(board)
+  WIN_COMBINATIONS.detect do |combo|
+    board[combo[0]] == board[combo[1]] &&
+    board[combo[1]] == board[combo[2]] &&
+    position_taken?(board, combo[0])
   end
 end
  
