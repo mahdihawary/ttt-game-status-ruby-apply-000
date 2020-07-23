@@ -15,7 +15,9 @@ WIN_COMBINATIONS = [
 [2,5,8]]
 
 def won? (board)
-  board.each 
+  board.each do |win_combo|
+   if win_combo[0] == "X" && 
+        
   
 end
 
