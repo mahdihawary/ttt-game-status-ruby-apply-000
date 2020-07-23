@@ -15,6 +15,7 @@ WIN_COMBINATIONS = [
 [2,5,8]]
 
 def won? (board)
+  if 
   WIN_COMBINATIONS.detect do |combo_win|
     board[combo_win[0]] == board[combo_win[1]] && board[combo_win[1]] == board[combo_win[2]]
     
